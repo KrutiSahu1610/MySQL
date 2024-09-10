@@ -3,6 +3,7 @@ select year,sum(population) as total_population
 from population_data
 group by year
 order by year;
+
 /*2. which countries has largest population in recent years?*/
 select c.country_name,p.population
 from countries c
